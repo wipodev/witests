@@ -1,0 +1,15 @@
+{
+  "name": "witests",
+  "version": "0.0.1",
+  "description": "A simple and extensible testing library",
+  "main": "lib/witests.js",
+  "bin": {
+    "witests": "./bin/Cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "witests"
+  },
+  "author": "WipoDev",
+  "license": "MIT"
+}
