@@ -7,6 +7,12 @@
     "witests": "./bin/Cli.js"
   },
   "type": "module",
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "witests"
   },
