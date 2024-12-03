@@ -18,6 +18,6 @@ if (fs.statSync(testPath).isDirectory()) {
     await runTests(pathToFileURL(path.join(testPath, file)), file);
   }
 } else {
-  await runTests(testPath, path.basename(testPath));
+  await runTests(pathToFileURL(testPath), path.basename(testPath));
 }
 await witestsRunner.run();
